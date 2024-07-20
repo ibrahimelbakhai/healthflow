@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Patient</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <form id="addPatientForm">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName"><br>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName"><br>
+        <label for="dateOfBirth">Date of Birth:</label>
+        <input type="date" id="dateOfBirth" name="dateOfBirth"><br>
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"><br>
+        <label for="address">Address:</label>
+        <textarea id="address" name="address"></textarea><br>
+        <label for="emergencyContact">Emergency Contact:</label>
+        <input type="text" id="emergencyContact" name="emergencyContact"><br>
+        <label for="medicalHistory">Medical History:</label>
+        <textarea id="medicalHistory" name="medicalHistory"></textarea><br>
+        <label for="currentMedications">Current Medications:</label>
+        <textarea id="currentMedications" name="currentMedications"></textarea><br>
+        <label for="allergies">Allergies:</label>
+        <input type="text" id="allergies" name="allergies"><br>
+        <button type="submit">Add Patient</button>
+    </form>
+
+    <script src="../js/scripts.js"></script>
+</body>
+</html>
